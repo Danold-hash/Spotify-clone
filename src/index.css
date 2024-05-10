@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar{
+  display:none;
+}
+
+@layer components{
+  .list-album-item-text{
+    @apply text-[15px]
+  }
+}
